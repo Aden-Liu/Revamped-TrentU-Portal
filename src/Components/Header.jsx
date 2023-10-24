@@ -1,6 +1,12 @@
+import "../style.css"
+
 export default function Header() {
   return (
     <header>
+      <div>
+        <img src="" alt="Placeholder"/>
+        <img src="" alt="Placeholder" />
+      </div>
         <nav>
             <ul>
                 <li><a href={'/HomePage'}>Home</a></li>
@@ -12,6 +18,10 @@ export default function Header() {
                 <li>Log out</li>
             </ul>
         </nav>
+        <div>
+          <input type="text" placeholder="Search"/>
+          <button><i className="fa-solid fa-magnifying-glass"></i></button>
+        </div>
     </header>
   )
 }
