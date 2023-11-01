@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+body {
+    height: 100vh;
+    background-color: black;
+    background: url('https://img.freepik.com/free-vector/gradient-green-modern-background-designs_343694-2027.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1698364800&semt=ais');
+    background-size: cover;
+    background-position: center;
+}

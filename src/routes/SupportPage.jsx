@@ -1,5 +1,10 @@
+import Header from "../Components/Header";
+
 export default function SupportPage() {
   return (
-    <div>SupportPage</div>
-  )
+    <div>
+      <Header />
+      SupportPage
+    </div>
+  );
 }

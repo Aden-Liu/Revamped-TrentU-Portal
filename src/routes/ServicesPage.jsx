@@ -1,5 +1,10 @@
+import Header from "../Components/Header";
+
 export default function ServicesPage() {
   return (
-    <div>ServicesPage</div>
-  )
+    <div>
+      <Header />
+      ServicesPage
+    </div>
+  );
 }

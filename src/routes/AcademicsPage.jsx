@@ -1,5 +1,10 @@
+import Header from "../Components/Header";
+
 export default function AcademicsPage() {
   return (
-    <div>AcademicsPage</div>
-  )
+    <div>
+      <Header />
+      AcademicsPage
+    </div>
+  );
 }
